@@ -38,8 +38,4 @@ public class MermaidFlowChartWriter implements StreamDocWriter {
     private String hexagon(final String id, final String text) {
         return id + "{{" + text + "}}";
     }
-
-    private String stadium(final String id, final String text) {
-        return id + "[[" + text + "]]";
-    }
 }
